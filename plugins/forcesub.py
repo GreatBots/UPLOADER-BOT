@@ -2,7 +2,8 @@
 from config import Config
 from pyrogram.errors import UserNotParticipant
 
-from pyrogram import Client as Clinton, filters
+from pyrogram import Client as Clinton
+from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram.errors import ChatAdminRequired, UserNotParticipant, ChatWriteForbidden
 
