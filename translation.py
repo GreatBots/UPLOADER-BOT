@@ -19,10 +19,9 @@ URL | filename | username | password"""
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
     CUSTOM_CAPTION_UL_FILE = "{}"
     NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> said: {}"
-    HELP_USER = """<b>How to Use Me? Follow These steps!</b>**
+    HELP_USER = """<b>How to Use Me? Follow These steps!</b>
 
 <b>Steps:</b>
-
 <b>1.</b> Send url (example.domain/File.mp4 | New Filename.mp4).
 <b>2.</b> Send Image As Custom Thumbnail (Optional).
 <b>3.</b> Select the button.
