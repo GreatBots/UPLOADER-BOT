@@ -46,7 +46,7 @@ async def start(bot, update):
             [
                     InlineKeyboardButton("Updates ⚡️", url="https://t.me/MyownBots"),
                 ],
-                [InlineKeyboardButton("Support ⚙️", url="https://t.me/devsChats")],
-            ),
+          InlineKeyboardButton("Support ⚙️", url="https://t.me/devsChats"),
+        ),
       reply_to_message_id=update.message_id
       )
