@@ -2,14 +2,14 @@
 from config import Config
 from pyrogram.errors import UserNotParticipant
 
-from pyrogram import Client as Clinton
+from pyrogram import Client
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram.errors import ChatAdminRequired, UserNotParticipant, ChatWriteForbidden
 
 MUST_JOIN = "MyOwnBots"
 
-@Clinton.on_message(~filters.edited & filters.incoming & filters.private, group=-1)
+@Client.on_message(~filters.edited & filters.incoming & filters.private, group=-1)
 async def must_join_channel(bot: Client, msg: Message):
     if not MUST_JOIN:  # Not compulsory
         return
