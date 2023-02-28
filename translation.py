@@ -7,13 +7,13 @@ I'm a **URL Uploader Bot!**
 Just send me any Direct download link and I'll give you the file!
 
 **/help for more details!**"""
-    ABOUT_TEXT = """**📰 About Me**
+    ABOUT_TEXT = """<b>📰 About Me</b>
 
-**Language:** Python 3
-**Framework:** Pyrogram
-**Channel:** @MyownBots
-**Group:** @DevsChats
-**Hosted On:** Heroku
+<b>Language:</b> Python 3
+<b>Framework:</b> Pyrogram
+<b>Channel:</b> @MyownBots
+<b>Group:</b> @DevsChats
+<b>Hosted On:</b> Heroku
 
 Thanks For Using This Bot🤗"""
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
@@ -31,13 +31,16 @@ URL | filename | username | password"""
     HELP_USER = """<b>How to Use Me? Follow These steps!</b>
 
 <b>Steps:</b>
-<b> > </b>Send url (example.domain/File.mp4 | New Filename.mp4).
-<b> > </b>Send Image As Custom Thumbnail (Optional).
-<b> > </b>Select the button.
+<b>> </b>Send url (example.domain/File.mp4 | New Filename.mp4).
+<b>> </b>Send Image As Custom Thumbnail (Optional).
+<b>> </b>Select the button.
    SVideo - Give File as video with Screenshots
    DFile  - Give File (video) as file with Screenshots
    Video  - Give File as video without Screenshots
    File   - Give File without Screenshots
+   
+<b>Torrent :</b>
+Use /torrent to use Torrent feature.
 
 If bot didn't respond, contact @DevsChats"""
     REPLY_TO_MEDIA_ALBUM_TO_GEN_THUMB = "Reply /generatecustomthumbnail to a media album, to generate custom thumbail"
