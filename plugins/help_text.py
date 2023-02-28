@@ -37,7 +37,7 @@ HELP_BTNS = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                'Documentation 📜, url='https://t.me/myownbots'),
+                'Documentation 📜', url='https://t.me/myownbots'),
             InlineKeyboardButton(
                 'Support ⚙️', url='https://telegram.me/DevsChats')
         ]
