@@ -22,6 +22,28 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 
+START_BTNS = InlineKeyboardMarkup(
+    [
+        [
+            InlineKeyboardButton(
+                'Updates ⚡️', url='https://t.me/myownbots'),
+            InlineKeyboardButton(
+                'Support ⚙️', url='https://telegram.me/DevsChats')
+        ]
+    ]
+)
+
+HELP_BTNS = InlineKeyboardMarkup(
+    [
+        [
+            InlineKeyboardButton(
+                'Documentation 📜, url='https://t.me/myownbots'),
+            InlineKeyboardButton(
+                'Support ⚙️', url='https://telegram.me/DevsChats')
+        ]
+    ]
+)
+
 @Clinton.on_message(filters.private & filters.command(["help"]))
 async def help_user(bot, update):
     # logger.info(update)
@@ -31,6 +53,7 @@ async def help_user(bot, update):
         text=Translation.HELP_USER,
         parse_mode="html",
         disable_web_page_preview=True,
+        reply_markup=HELP_BTNS,
         reply_to_message_id=update.message_id
     )
 
@@ -42,11 +65,6 @@ async def start(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
         text=Translation.START_TEXT.format(update.from_user.mention),
-        reply_markup=InlineKeyboardMarkup(
-            [
-                    InlineKeyboardButton("Updates ⚡️", url="https://t.me/MyownBots"),
-                ],
-          InlineKeyboardButton("Support ⚙️", url="https://t.me/devsChats"),
-        ),
-      reply_to_message_id=update.message_id
-      )
+        reply_markup=START_BTNS,
+        reply_to_message_id=update.message_id
+    )
