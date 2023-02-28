@@ -44,6 +44,28 @@ HELP_BTNS = InlineKeyboardMarkup(
     ]
 )
 
+ABOUT_BTNS = InlineKeyboardMarkup(
+    [
+        [
+            InlineKeyboardButton(
+                'Support Chat', url='https://telegram.me/DevsChats')
+        ]
+    ]
+)
+
+@Clinton.on_message(filters.private & filters.command(["about"]))
+async def about_user(bot, update):
+    # logger.info(update)
+    await AddUser(bot, update)
+    await bot.send_message(
+        chat_id=update.chat.id,
+        text=Translation.ABOUT_TEXT,
+        parse_mode="html",
+        disable_web_page_preview=True,
+        reply_markup=ABOUT_BTNS,
+        reply_to_message_id=update.message_id
+    )
+
 @Clinton.on_message(filters.private & filters.command(["help"]))
 async def help_user(bot, update):
     # logger.info(update)
