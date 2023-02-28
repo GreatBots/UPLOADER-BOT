@@ -7,7 +7,7 @@ I'm a **URL Uploader Bot!**
 Just send me any Direct download link and I'll give you the file!
 
 **/help for more details!**"""
-.   ABOUT_TEXT = """**📰 About Me**
+    ABOUT_TEXT = """**📰 About Me**
 
 **Language:** Python 3
 **Framework:** Pyrogram
@@ -31,9 +31,9 @@ URL | filename | username | password"""
     HELP_USER = """<b>How to Use Me? Follow These steps!</b>
 
 <b>Steps:</b>
-<b>1.</b> Send url (example.domain/File.mp4 | New Filename.mp4).
-<b>2.</b> Send Image As Custom Thumbnail (Optional).
-<b>3.</b> Select the button.
+<b> > </b>Send url (example.domain/File.mp4 | New Filename.mp4).
+<b> > </b>Send Image As Custom Thumbnail (Optional).
+<b> > </b>Select the button.
    SVideo - Give File as video with Screenshots
    DFile  - Give File (video) as file with Screenshots
    Video  - Give File as video without Screenshots
