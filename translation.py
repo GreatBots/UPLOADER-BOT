@@ -40,7 +40,7 @@ URL | filename | username | password"""
    File   - Give File without Screenshots
    
 <b>Torrent :</b>
-Use /torrent to use Torrent feature.
+Use /search to use Torrent feature.
 
 If bot didn't respond, contact @DevsChats"""
     REPLY_TO_MEDIA_ALBUM_TO_GEN_THUMB = "Reply /generatecustomthumbnail to a media album, to generate custom thumbail"
