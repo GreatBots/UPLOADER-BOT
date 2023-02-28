@@ -6,7 +6,7 @@ class Translation(object):
 I'm a **URL Uploader Bot!**
 Just send me any Direct download link and I'll give you the file!
 
-/help for more details!"""
+**/help for more details!**"""
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | filename | username | password"""
@@ -19,11 +19,13 @@ URL | filename | username | password"""
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
     CUSTOM_CAPTION_UL_FILE = "{}"
     NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> said: {}"
-    HELP_USER = """**How to Use Me? Follow These steps!**
-    
-1. Send url (example.domain/File.mp4 | New Filename.mp4).
-2. Send Image As Custom Thumbnail (Optional).
-3. Select the button.
+    HELP_USER = """<b>How to Use Me? Follow These steps!</b>**
+
+<b>Steps:</b>
+
+<b>1.</b> Send url (example.domain/File.mp4 | New Filename.mp4).
+<b>2.</b> Send Image As Custom Thumbnail (Optional).
+<b>3.</b> Select the button.
    SVideo - Give File as video with Screenshots
    DFile  - Give File (video) as file with Screenshots
    Video  - Give File as video without Screenshots
