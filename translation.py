@@ -7,6 +7,15 @@ I'm a **URL Uploader Bot!**
 Just send me any Direct download link and I'll give you the file!
 
 **/help for more details!**"""
+.   ABOUT_TEXT = """**📰 About Me**
+
+**Language:** Python 3
+**Framework:** Pyrogram
+**Channel:** @MyownBots
+**Group:** @DevsChats
+**Hosted On:** Heroku
+
+Thanks For Using This Bot🤗"""
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | filename | username | password"""
