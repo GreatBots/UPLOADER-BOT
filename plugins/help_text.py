@@ -37,7 +37,7 @@ HELP_BTNS = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                'Documentation 📜', url='https://t.me/myownbots'),
+                'Documentation 📜', url='https://graph.org/How-to-Use-URL-Uploader-Bot-03-02'),
             InlineKeyboardButton(
                 'Support ⚙️', url='https://telegram.me/DevsChats')
         ]
@@ -87,6 +87,5 @@ async def start(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
         text=Translation.START_TEXT.format(update.from_user.mention),
-        reply_markup=START_BTNS,
         reply_to_message_id=update.message_id
     )
