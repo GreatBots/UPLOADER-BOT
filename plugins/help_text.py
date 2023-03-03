@@ -52,7 +52,7 @@ ABOUT_BTNS = InlineKeyboardMarkup(
     ]
 )
 
-@Clinton.on_message(regex(pattern=".*http(?:s?):\/\/(?:www\.)?youtu(?:be\.com\/watch\?v=|\.be\/).*"))
+@Clinton.on_message(filters.regex(pattern=".*http(?:s?):\/\/(?:www\.)?youtu(?:be\.com\/watch\?v=|\.be\/).*"))
 async def yturl(bot, update):
   await bot.send_message(
     chat_id=update.chat.id,
