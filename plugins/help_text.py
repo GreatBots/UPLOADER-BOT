@@ -23,7 +23,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 ERRORLINKTEXT = "Please use @the_youtube_bot for downloading YouTube videos"
 
-@Clinton.on_message(filter.regex("https://www.youtube.com/(.*"))
+@Clinton.on_message(filters.regex("https://www.youtube.com/(.*"))
 async def errorlinks(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
