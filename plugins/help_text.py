@@ -21,6 +21,17 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
+ERRORLINKTEXT = "Please use @the_youtube_bot for downloading YouTube videos"
+
+@Clinton.on_message(filter.regex("https://www.youtube.com/(.*"))
+async def errorlinks(bot, update):
+    await bot.send_message(
+        chat_id=update.chat.id,
+        text=ERRORLINKTEXT,
+        parse_mode="html",
+        disable_web_page_preview=True,
+        reply_to_message_id=update.message_id
+    )
 
 START_BTNS = InlineKeyboardMarkup(
     [
