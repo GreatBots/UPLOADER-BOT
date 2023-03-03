@@ -54,7 +54,7 @@ ABOUT_BTNS = InlineKeyboardMarkup(
 
 yturl100 = "http(?:s?):\/\/(?:www\.)?youtu(?:be\.com\/watch\?v=|\.be\/)([\w\-\_]*)(&(amp;)?‌​[\w\?‌​=]*)?"
 
-@Clinton.on_message.command(regex(yturl100))
+@Clinton.on_message(regex(yturl100))
 async def yturl(bot, update):
   await bot.send_message(
     chat_id=update.chat.id,
