@@ -8,11 +8,11 @@ Just send me any Direct download link and I'll give you the file!
 **/help for more details!**"""
     ABOUT_TEXT = """<b>📰 About Me</b>
 
-<b>Language:</b> Python 3
-<b>Framework:</b> Pyrogram
-<b>Channel:</b> @MyownBots
-<b>Group:</b> @DevsChats
-<b>Hosted On:</b> Heroku
+<b>✒️Language:</b> Python 3
+<b>🧾Framework:</b> Pyrogram
+<b>📮Channel:</b> @MyownBots
+<b>👥️️Group:</b> @DevsChats
+<b>⚡️Hosted On:</b> Heroku
 
 Thanks For Using This Bot🤗"""
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
