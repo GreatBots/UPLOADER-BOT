@@ -2,8 +2,7 @@ class Translation(object):
 
     ERROR = "<b>ERROR :</b> {}\n\nSent This Code To @DevsChats"
 
-    START_TEXT = """**Hi {},**
-I'm a **URL Uploader Bot!**
+    START_TEXT = """**Hi {}**, I'm a **URL Uploader Bot!**
 Just send me any Direct download link and I'll give you the file!
 
 **/help for more details!**"""
