@@ -49,7 +49,7 @@ ABOUT_BTNS = InlineKeyboardMarkup(
             InlineKeyboardButton(
                 '👥️️ Support', url='https://telegram.me/DevsChats'),
             InlineKeyboardButton(
-                '📮 Channel', url='https://telegram.dog/myownbots)
+                '📮 Channel', url='https://telegram.dog/myownbots')
         ]
     ]
 )
