@@ -47,7 +47,9 @@ ABOUT_BTNS = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                'Support Chat', url='https://telegram.me/DevsChats')
+                '👥️️ Support', url='https://telegram.me/DevsChats'),
+            InlineKeyboardButton(
+                '📮 Channel', url='https://telegram.dog/myownbots)
         ]
     ]
 )
