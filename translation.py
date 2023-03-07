@@ -6,15 +6,20 @@ class Translation(object):
 Just send me any Direct download link and I'll give you the file!
 
 **/help for more details!**"""
-    ABOUT_TEXT = """<b>📰 About Me</b>
+    ABOUT_TEXT = """<b>Hey! My name is URL Uploader.</b>
+I can upload files to telegram by url.
 
-<b>✒️Language:</b> Python 3
-<b>🧾Framework:</b> Pyrogram
-<b>📮Channel:</b> @MyownBots
-<b>👥️️Group:</b> @DevsChats
-<b>⚡️Hosted On:</b> Heroku
+<b>About Me :</b>
 
-Thanks For Using This Bot🤗"""
+  <b>- Name      :</b> Url Uploader Bot
+
+  <b>- Creator   </b>: @myownbots
+
+  <b>- Language </b> : Python 3
+
+  <b>- Library      :</b> python-telegram-bot
+  
+<b>Thanks For Using This Bot.If Any Bugs @DevsChats</b>"""
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | filename | username | password"""
