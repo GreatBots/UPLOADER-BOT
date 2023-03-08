@@ -25,9 +25,9 @@ START_BTNS = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                'Updates ⚡️', url='https://t.me/myownbots'),
+                'Updates ⚡️', url='https://t.me/myownbotz'),
             InlineKeyboardButton(
-                'Support ⚙️', url='https://telegram.me/DevsChats')
+                'Support ⚙️', url='https://telegram.me/TGDevChat')
         ]
     ]
 )
@@ -38,7 +38,7 @@ HELP_BTNS = InlineKeyboardMarkup(
             InlineKeyboardButton(
                 'Documentation 📜', url='https://graph.org/How-to-Use-URL-Uploader-Bot-03-02'),
             InlineKeyboardButton(
-                'Support ⚙️', url='https://telegram.me/DevsChats')
+                'Support ⚙️', url='https://telegram.me/TGDevChat')
         ]
     ]
 )
@@ -47,9 +47,9 @@ ABOUT_BTNS = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                '👥️️ Support', url='https://telegram.me/DevsChats'),
+                '👥️️ Support', url='https://telegram.me/TGDevChat'),
             InlineKeyboardButton(
-                '📮 Channel', url='https://telegram.dog/myownbots')
+                '📮 Channel', url='https://telegram.dog/myownbotz')
         ]
     ]
 )
