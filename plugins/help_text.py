@@ -38,7 +38,7 @@ HELP_BTNS = InlineKeyboardMarkup(
             InlineKeyboardButton(text="➰️ Channel", url=f"https://telegram.me/MYOWNBOTS"),
             InlineKeyboardButton(text="👥️️ Support", url=f"https://telegram.me/DEVSCHATS"),
           ],[
-             InlineKeyboardButton(text="Documentation 📜" url=f"https://graph.org/How-to-Use-URL-Uploader-Bot-03-02"),
+             InlineKeyboardButton(text="Documentation 📃" url=f"https://graph.org/How-to-Use-URL-Uploader-Bot-03-02"),
         ]
     ]
 )
