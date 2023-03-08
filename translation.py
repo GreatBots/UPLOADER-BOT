@@ -2,10 +2,12 @@ class Translation(object):
 
     ERROR = "<b>ERROR :</b> {}\n\nSent This Code To @DevsChats"
 
-    START_TEXT = """**Hi {}**, I'm a **URL Uploader Bot!**
+    START_TEXT = """**Hi {}**,
+I'm a **URL Uploader Bot!**
+
 Just send me any Direct download link and I'll give you the file!
 
-**/help for more details!**"""
+/help for more details!"""
     ABOUT_TEXT = """<b>Hey! My name is URL Uploader.</b>
 I can upload files to telegram by url.
 
@@ -45,6 +47,14 @@ URL | filename | username | password"""
    
 <b>Torrent :</b>
 Use /search to use Torrent feature.
+
+<b>Comnands:</b>
+/start - Start The Bot
+/help - Get help to use this bot
+/about - Get about section of this bot
+/generatecustomthumbnail - To Generate Custom Thumbnail From Media Albam
+/search - Search Torrent Files
+/rename - Rename files after upload
 
 If bot didn't respond, contact @DevsChats"""
     REPLY_TO_MEDIA_ALBUM_TO_GEN_THUMB = "Reply /generatecustomthumbnail to a media album, to generate custom thumbail"
