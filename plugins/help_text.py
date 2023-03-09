@@ -58,7 +58,7 @@ ABOUT_BTNS = InlineKeyboardMarkup(
 async def yturl(bot, update):
   await bot.send_message(
     chat_id=update.chat.id,
-    text=f"Please Use @The_Youtube_Bot for Download YouTube Content",
+    text=f"Please Use @YouTubeDownloader_XBot for Download YouTube Content",
     disable_web_page_preview=True,
     reply_to_message_id=update.message_id
   )
